@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hướng Dẫn Làm Bánh Su Kem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>🍰 Hướng Dẫn Làm Bánh Su Kem</h1>
+</header>
+
+<div class="container">
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="🔍 Tìm kiếm loại bánh...">
+    </div>
+    <div class="filters">
+        <div class="filter-group">
+            <label>⭐ Mức độ yêu thích:</label>
+            <select id="ratingFilter">
+                <option value="all">Tất cả</option>
+                <option value="5">⭐⭐⭐⭐⭐ (5 sao)</option>
+                <option value="4">⭐⭐⭐⭐ (4 sao trở lên)</option>
+                <option value="3">⭐⭐⭐ (3 sao trở lên)</option>
+            </select>
+        </div>
+    </div>
+    <div class="menu" id="menuList"></div>
+</div>
+
+<div id="recipeModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+        </div>
+        <div class="modal-body" id="modalBody"></div>
+    </div>
+</div>
+
+<footer>
+    <h4 style = "margin-bottom: 10px;"> - Huỳnh Kiến Minh <br> </h4>
+    <h4 style = "margin-bottom: 10px;"> - Dương Minh Tiến <br> </h4>
+    <h4 style = "margin-bottom: 10px;"> - Khúc Hoàng Anh </h4>
+</footer>
+
+<script src = "script.js"></script>
+
+</body>
+</html>
